@@ -10,8 +10,8 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
  *= require_self
+ *= require_tree .
  */
 
  @import "bootstrap-sass-official/assets/stylesheets/bootstrap-sprockets";
@@ -5761,9 +5761,13 @@ p > video {
 
 .main-content{
 	float: right;
-	padding: 30% 5% 10% 30%;
+	padding: 25% 5% 10% 30%;
 }
 
 .fb{
 	background: url(fb.jpg);
+}
+
+body{
+	background: url(background.jpg) no-repeat;
 }
